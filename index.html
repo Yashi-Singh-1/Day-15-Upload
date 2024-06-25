@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="frame">
+  <div class="center">
+    <div class="bar"></div>
+    <div class="title">Drop file to upload</div>
+    <div class="dropzone" role="region" aria-labelledby="dropzone-label">
+      <div class="content">
+        <img src="https://100dayscss.com/codepen/upload.svg" alt="Upload icon" class="upload">
+        <span class="filename" aria-live="polite"></span>
+        <input type="file" class="input" aria-describedby="upload-instructions">
+      </div>
+    </div>
+    <img src="https://100dayscss.com/codepen/syncing.svg" alt="Syncing icon" class="syncing" aria-hidden="true">
+    <img src="https://100dayscss.com/codepen/checkmark.svg" alt="Checkmark icon" class="done" aria-hidden="true">
+    <button class="upload-btn">Upload file</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
