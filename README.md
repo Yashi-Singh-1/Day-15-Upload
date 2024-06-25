@@ -52,7 +52,7 @@
 
   <p> Screenshot </p>
 
-    ![Preview](Preview.png)
+  ![Preview](Preview.png)
 
   <h2>Contributing</h2>
 
